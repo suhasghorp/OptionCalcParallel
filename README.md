@@ -57,10 +57,12 @@ The directory structure is as follows:
 OptionCalcParallel
 ├── include
 │   └── OptionCalcParallel
-│       └── lib.hpp
+│       └── EquityPriceGenerator.h
+│       └── MCEuroOptPricer.h
 ├── src
 │   ├── CMakeLists.txt
-│   └── lib.cpp
+│   └── EquityPriceGenerator.cpp
+│   └── MCEuroOptPricer.cpp
 ├── example
 │   ├── CMakeLists.txt
 │   └── example.cpp
@@ -69,6 +71,7 @@ OptionCalcParallel
 ├── extern
 │   ├── CMakeLists.txt
 │   └── catch2
+│   └── spdlog
 ├── tests
 │   ├── CMakeLists.txt
 │   └── test_OptionCalcParallel.cpp
